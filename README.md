@@ -1,7 +1,7 @@
 # python-algorithm
 
 ### 🔗 Rules
-+ **`일시`** : 매주 목요일 22시 </br>
++ **`일시`** : 매주 목요일 22시 </br>Cancel changes
 + **`문제`** : 매주 금요일까지 프로그래머스 택1, 백준 택1해서 업로드(`[백준/프로그래머스] : [문제 이름]`)
 + **`commit convention`** : `add: [문제 이름] [문제 번호]`
 
@@ -25,4 +25,4 @@
 | **Week9** <br>(7.08 ~ 7.14)| 해시 | [백준:추월](https://www.acmicpc.net/problem/2002)| [백준:베스트 앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579) | [프로그래머스:전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)| [프로그래머스:위장](https://school.programmers.co.kr/learn/courses/30/lessons/42578)
 | **Week10** <br>(7.15 ~ 7.21)| 완전탐색 | [백준:단어 수학](https://www.acmicpc.net/problem/1339) | [백준:테트로미노](https://www.acmicpc.net/problem/14500) | [프로그래머스:자물쇠와열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) |[백준:암호 만들기](https://www.acmicpc.net/problem/1759)
 | **Week11** <br>(7.22 ~ 7.28)| 완전탐색 | [프로그래머스:모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)| [프로그래머스: 전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)|[백준 : 고층건물](https://www.acmicpc.net/problem/1027) | [백준:Hello World!](https://www.acmicpc.net/problem/13140) |[백준:리모컨](https://www.acmicpc.net/problem/1107)|
-| **Week11** <br>(7.29 ~ 8.4)| -- | [프로그래머스:문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)| [백준:후위표기식](https://www.acmicpc.net/problem/1918) | [프로그래머스:오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888)| [백준:사다리 조작](https://www.acmicpc.net/problem/15684) | [백준:램프}(https://www.acmicpc.net/problem/1034)
+| **Week11** <br>(7.29 ~ 8.4)| -- | [프로그래머스:문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057)| [백준:후위표기식](https://www.acmicpc.net/problem/1918) | [프로그래머스:오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888)| [백준:사다리 조작](https://www.acmicpc.net/problem/15684) | [백준:램프](https://www.acmicpc.net/problem/1034)
