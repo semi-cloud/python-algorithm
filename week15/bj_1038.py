@@ -5,7 +5,7 @@ N = int(input())
 cnt = -1
 q = deque()
 for i in range(10):
-    q.append(str(i))
+    q.append(i)
 
 while q:
     num = q.popleft()
@@ -14,9 +14,8 @@ while q:
         print(num)
         break
 
-    for i in range(0, 10):
-        if int(num[-1]) > i:          # 현재 수보다 새로 추가 하려는 수가 더 작으면  432
-            q.append(num + str(i))    # 숫자를 문자열로 추가
+    for i in range(num % 10):   # 감소 해야 하므로 애초에 num 보다 작은 수만 가능
+        q.append(num * 10 + i)   # 앞 자리 수에 10을 곱한 후 마지막 자리 더해서 수 만들기
 else:               # N번째 감소 하는 수가 없는 경우
     print(-1)
 
