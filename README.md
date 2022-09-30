@@ -36,5 +36,3 @@
 | **Week18** <br>(9.09 ~ 9.15)| -- |[백준:어른 상어](https://www.acmicpc.net/problem/19237) | [백준:스티커 붙이기](https://www.acmicpc.net/problem/18808) | [백준:ACM Craft](https://www.acmicpc.net/problem/1005) | [백준:IQ Test](https://www.acmicpc.net/problem/1111) | [프로그래머스:단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)
 | **Week19** <br>(9.16 ~ 9.22)| -- |[백준:벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)|[프로그래머스:카펫](https://school.programmers.co.kr/learn/courses/30/lessons/42842)|[백준:행렬 곱셈 순서](https://www.acmicpc.net/problem/11049)|[백준:마법사 상어와 파이어볼](https://www.acmicpc.net/problem/20056)
 | **Week21** <br>(9.30 ~ 10.06)| -- |[백준:소용돌이 예쁘게 출력하기](https://www.acmicpc.net/problem/1022)|[백준:나무 재태크](https://www.acmicpc.net/problem/16235)|
-
-| **Week11** <br>(7.22 ~ 7.28)| 완전탐색 | [프로그래머스:모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)| [프로그래머스: 전력망을 둘로 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/86971)|[백준 : 고층건물](https://www.acmicpc.net/problem/1027) | [백준:Hello World!](https://www.acmicpc.net/problem/13140) |[백준:리모컨](https://www.acmicpc.net/problem/1107)|ㅏㅁ
