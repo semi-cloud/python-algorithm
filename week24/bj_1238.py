@@ -4,9 +4,9 @@
 
 import sys
 from collections import defaultdict
-import heapq       # 우선 순위 큐
+import heapq        # 우선 순위 큐
 
-def dijkstra(start, graph):  #  O(ELogE)
+def dijkstra(start, graph):  # O(ELogE)
     # X 로부터 오는 경로의 최소값
     dp = [int(1e9)] * (N + 1)  # 무한대로 초기화
     dp[start] = 0
@@ -23,7 +23,7 @@ def dijkstra(start, graph):  #  O(ELogE)
 
             if dp[node_index] > new_cost:  # 비용이 더 작다면 갱신
                 dp[node_index] = new_cost
-                q.append((new_cost, node_index))  # 거리 값이 갱신된 최단 거리 노드만 우선순위 큐에 추가
+                heapq.heappush(q, (new_cost, node_index))  # 거리 값이 갱신된 최단 거리 노드만 우선순위 큐에 추가
     return dp
 
 input = sys.stdin.readline
@@ -34,8 +34,8 @@ result = 0
 
 for _ in range(M):
     s, e, d = map(int, input().split())
-    graph_origin[s].append((e, d))    # 정방향 그래프 : X -> 특정 노드
-    graph_inverse[e].append((s, d))   # 역방향 그래프 : 특정 노드 -> X
+    graph_origin[s].append((e, d))    # 정방향 그래프 : X -> 특정 노드 1 -> 3 (x) 2
+    graph_inverse[e].append((s, d))   # 역방향 그래프 : 특정 노드 -> X   3 -> 1 (2)
 
 dp_down = dijkstra(X, graph_origin)
 dp_up = dijkstra(X, graph_inverse)
@@ -44,9 +44,8 @@ for i in range(1, N+1):
     result = max(result, dp_up[i] + dp_down[i])
 print(result)
 
-# 힙을 사용 했지만 시간 초과가 난 풀이 : O(N*M*logM)
+# 힙을 사용 했지만 시간 초과가 난 풀이 : O(N*M*logM) => default-dict 문제(일반 딕셔너리보다 느림)
 # A -> X
-# dist_down = dijkstra(X)
 # for i in range(1, N+1):
 #     if i == X:
 #         continue
@@ -54,6 +53,11 @@ print(result)
 #     total_sum = dist_up[X] + dist_down[i]
 #     if result < total_sum:
 #         result = total_sum
+# print(result)
+
+# 리스트 컨프리 헨션 사용한 풀이 : 속도는 더 빠름
+# dist_down = dijkstra(X, graph_origin)
+# result = [dijkstra(i, graph_origin)[X] + dist_down[i] for i in range(1, N+1)]
 # print(result)
 
 # O(N^2) 풀이
