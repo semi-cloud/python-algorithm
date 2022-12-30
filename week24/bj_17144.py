@@ -84,5 +84,3 @@ for i in range(R):
         if arr[i][j][0] > 0:
             total_dust += arr[i][j][0]
 print(total_dust)
-
-# print(sum(sum([[arr[i][j][0] for j in range(C) if arr[i][j][0] > 0] for i in range(R)], [])))
