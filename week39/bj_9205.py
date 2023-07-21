@@ -1,4 +1,6 @@
 # 좌표 평면에서의 BFS
+# [편의점 1] 가능
+# [편의점 1] => [편의점 2], [편의점 3] 가능
 
 from collections import deque
 
@@ -14,7 +16,7 @@ def bfs(a, b):
             print("happy")
             return True
 
-        for idx in range(n):   # 아 하나씩 해야 하는데
+        for idx in range(n):
             if visited[idx]: continue  # 이미 방문한 편의점일 경우
 
             nx, ny = departs[idx][0], departs[idx][1]
@@ -24,8 +26,7 @@ def bfs(a, b):
                 visited[idx] = True
                 q.append([nx, ny])  # 도달 가능한 편의점 모두 담기
 
-    # 현재 거리가 1000m 보다 먼 경우 맥주 고갈
-    print("sad")
+    print("sad")    # 현재 거리가 1000m 보다 먼 경우 맥주 고갈
 
 t = int(input())
 for _ in range(t):
