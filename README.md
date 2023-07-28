@@ -55,5 +55,5 @@
 | **Week37** <br>(6.09 ~ 6.16) | -- | [백준: 피아노 체조](https://www.acmicpc.net/problem/21318) | [프로그래머스: 혼자서 하는 틱택토](https://school.programmers.co.kr/learn/courses/30/lessons/160585#:~:text=규칙을%20지켜서%20진행한%20틱택토라면%20선공과,수%20있고%2C%20정상적인%20틱택토) | [백준:게리맨더링 2](https://www.acmicpc.net/problem/17779) | [백준:도둑](https://www.acmicpc.net/problem/13422) | [백준:겹치는 건 싫어](https://www.acmicpc.net/problem/20922) 
 | **Week38** <br>(6.17 ~ 6.23) | -- | [백준:마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [백준:가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) | [백준:링크와 스타트](https://www.acmicpc.net/problem/15661) | [백준:봄버맨](https://www.acmicpc.net/problem/16918) | [백준:문자열 게임2](https://www.acmicpc.net/problem/20437)
 | **Week39** <br>(6.29 ~ 7.04) | -- | [백준:무기 공학](https://www.acmicpc.net/problem/18430) | [프로그래머스:추석 트래픽](https://school.programmers.co.kr/learn/courses/30/lessons/17676) | [백준:부등호](https://www.acmicpc.net/problem/2529) | [백준:암호 코드](https://www.acmicpc.net/problem/2011) | [백준:맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205)
-
+| **Week39** <br>(7.31 ~ 8.06) | -- | [백준:소가 길을 건너간 이유 6](https://www.acmicpc.net/problem/14466) | [백준:MooTube(Silver)](https://www.acmicpc.net/problem/15591) | [백준:정복자](https://www.acmicpc.net/problem/14950) | [백준:작업](https://www.acmicpc.net/problem/2056) | [백준:소형 기관차](https://www.acmicpc.net/problem/2616)
 
